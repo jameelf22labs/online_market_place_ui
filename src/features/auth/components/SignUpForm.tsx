@@ -4,7 +4,7 @@ import { Button, Form, Input } from "antd";
 import { AuthApiService } from "../../../api/service";
 import api from "../../../api/axios.intercept";
 import { useNavigate } from "react-router-dom";
-import useAuth from "../../../hooks/useAuth";
+import { useAuth } from "../../../hooks";
 
 export interface SignUpFormData {
   name: string;

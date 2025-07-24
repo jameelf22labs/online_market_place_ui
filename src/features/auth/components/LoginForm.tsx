@@ -3,7 +3,7 @@ import { LockOutlined, MailOutlined } from "@ant-design/icons";
 import { Button, Form, Input } from "antd";
 import { AuthApiService } from "../../../api/service";
 import { useNavigate } from "react-router-dom";
-import useAuth from "../../../hooks/useAuth";
+import { useAuth } from "../../../hooks";
 
 export interface LoginFormData {
   email: string;
